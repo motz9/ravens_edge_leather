@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  font-family: 'Skranji', cursive;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+  background-color: rgb(255, 0, 0);
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+  background-color: rgb(255, 0, 0);
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.wallets {
+  background-color: rgb(255, 0, 0);
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.satchels {
+  background-color: rgb(255, 0, 0);
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.sheathes{
+  background-color: rgb(255, 0, 0);
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  gap: 20px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+span {
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+}
+
+.order__button {
+  cursor: pointer;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: rgb(255, 0, 0);
+  font-weight: bold;
+  color: #000;
+  transition: all 0.5s ease;
+}
+
+.order__button:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  opacity: 0.5;
+}
