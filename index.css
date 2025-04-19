@@ -82,7 +82,7 @@ img {
 h3 {
   font-size: 25px;
   font-weight: bold;
-  color: black;
+  color: #fff;
   margin-bottom: 25px;
   margin-left: 10px;
 }
@@ -189,3 +189,76 @@ span {
   text-decoration: none;
 }
 
+@media screen and (max-width: 627px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .image-container {
+    padding: 0 10px;
+  }
+
+  img {
+    width: 45%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar {
+    padding: 10px 0;
+    justify-content: center;
+  } 
+
+  .navbar ul {
+    justify-content: center !important;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+
+  .order-button {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: medium;
+    display: block;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .social-media a {
+    font-size: 30px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  p, h1, h2, h3, .section-heading, .description  {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+}
